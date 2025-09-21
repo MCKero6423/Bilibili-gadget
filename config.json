@@ -1,0 +1,26 @@
+{
+    "download": {
+        "folder": "音频",
+        "quality": "ba[ext=m4a]/ba",
+        "auto_convert_mp3": true,
+        "mp3_quality": "0",
+        "max_retries": 3,
+        "timeout": 30
+    },
+    "ffmpeg": {
+        "threads": 4,
+        "quality_preset": "0"
+    },
+    "network": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "referer": "https://www.bilibili.com",
+        "timeout": 30,
+        "max_retries": 3
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "bilibili_tool.log",
+        "max_size": "10MB",
+        "backup_count": 3
+    }
+}
